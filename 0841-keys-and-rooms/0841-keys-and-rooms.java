@@ -18,11 +18,24 @@ class Solution {
 //         }
 //         return answer;
         
-        return bfs(rooms);
+        // return bfs(rooms);
+        
+        int[] visit = new int[rooms.size()];
+        dfs(0, rooms, visit);
+        for (int x : visit) {
+            if (x == 0) return false;
+        }
+        return true;
     }
     
-    public void dfs(List<List<Integer>> rooms, List<Integer> graph) {
-        
+    public void dfs(int start, List<List<Integer>> rooms, int[] visit) {
+        visit[start] = 1;
+        for (int next : rooms.get(start)) {
+            if (visit[next] == 0) {
+                visit[next] = 1;
+                dfs(next, rooms, visit);
+            }
+        }
     }
     
     private boolean bfs(List<List<Integer>> rooms) {
