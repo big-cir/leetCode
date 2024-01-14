@@ -14,14 +14,16 @@ class Solution {
         Deque<Element> stack = new ArrayDeque<>();
 
         for (int i = 0; i < height.length; i++) {
-            while (!stack.isEmpty() && height[i] > stack.peek().height) {
-                 Element element = stack.pop();
-                 if (stack.isEmpty()) break;
+            if (!stack.isEmpty()) {
+                while (height[i] > stack.peek().height) {
+                     Element element = stack.pop();
+                     if (stack.isEmpty()) break;
 
-                 int waterWidth = i - stack.peek().idx - 1;
-                 int waterHeight = Math.min(height[i], stack.peek().height) - height[element.idx];
-                 answer += waterWidth * waterHeight;
-            }       
+                     int waterWidth = i - stack.peek().idx - 1;
+                    int waterHeight = Math.min(height[i], stack.peek().height) - height[element.idx];
+                     answer += waterWidth * waterHeight;
+                }
+            }
             stack.push(new Element(i, height[i]));
         }
         return answer;
