@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
                 if (ch[i][j] == 0 && grid[i][j] == '1') {
-                    dfs(i, j, grid, ch);
+                    bfs(i, j, grid, ch);
                     answer++;
                 }
             }
@@ -16,19 +16,27 @@ class Solution {
         return answer;
     }
     
-    private void dfs(int x, int y, char[][] grid, int[][] ch) {
+    
+    private void bfs(int x, int y, char[][] grid, int[][] ch) {
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[] {x, y});
         ch[x][y] = 1;
         
-        for (int i = 0; i < 4; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
+        while (!queue.isEmpty()) {
+            int[] now = queue.poll();
             
-            if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length) {
-                if (ch[nx][ny] == 0 && grid[nx][ny] == '1') {
+            for (int i = 0; i < 4; i++) {
+                int nx = now[0] + dx[i];
+                int ny = now[1] + dy[i];
+                
+                if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length) {
+                    if (ch[nx][ny] == 0 && grid[nx][ny] == '1') {
                     ch[nx][ny] = 1;
-                    dfs(nx, ny, grid, ch);
+                    queue.offer(new int[] {nx, ny});
+                    }
                 }
             }
+            
         }
     }
 }
