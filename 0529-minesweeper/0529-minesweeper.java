@@ -3,52 +3,53 @@ class Solution {
     static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
     
     public char[][] updateBoard(char[][] board, int[] click) {
-        if (board[click[0]][click[1]] == 'M') {
-            board[click[0]][click[1]] = 'X';
-            return board;
-        }
-
-        bfs(click[0], click[1], board);
-        return board;
+        return bfs(board, click);
     }
     
-    private void bfs(int clickX, int clickY, char[][] board) {
+    private char[][] bfs(char[][] board, int[] click) {
         int[][] ch = new int[board.length][board[0].length];
         Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[] {clickX, clickY});
-        ch[clickX][clickY] = 1;
-
+        ch[click[0]][click[1]] = 1;
+        queue.offer(click);
+        
         while (!queue.isEmpty()) {
             int[] now = queue.poll();
-            int mineCnt = findMines(now[0], now[1], board);
-
-            if (mineCnt == 0) {
+            
+            if (board[now[0]][now[1]] == 'M') {
+                board[now[0]][now[1]] = 'X';
+                return board;
+            }   
+            
+            int mines = calculateMines(board, now);
+            
+            if (mines != 0) {
+                board[now[0]][now[1]] = (char) (mines + '0');
+            } else {
+                board[now[0]][now[1]] = 'B';
                 for (int i = 0; i < 8; i++) {
                     int nx = now[0] + dx[i];
                     int ny = now[1] + dy[i];
 
-                    if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length && ch[nx][ny] == 0) {
+                    if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length && board[nx][ny] == 'E' && ch[nx][ny] == 0) {
                         ch[nx][ny] = 1;
                         queue.offer(new int[] {nx, ny});
                     }
-                }
-
-                board[now[0]][now[1]] = 'B';
-            } else {
-                board[now[0]][now[1]] = (char) (mineCnt + '0');
+                 }   
             }
         }
+        return board;
     }
-
-    private int findMines(int x, int y, char[][] board) {
-        int cnt = 0;
+    
+    private int calculateMines(char[][] board, int[] click) {
+        int count = 0;
         for (int i = 0; i < 8; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-            if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length) {
-                if (board[nx][ny] == 'M') cnt++;
+            int nx = click[0] + dx[i];
+            int ny = click[1] + dy[i];
+            
+            if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length && board[nx][ny] == 'M') {
+                 count++;
             }
         }
-        return cnt;
+        return count;
     }
 }
