@@ -34,6 +34,8 @@ List<List<Node>> list = new ArrayList<>();
         dis[k] = 0;
         while (!pq.isEmpty()) {
             Node now = pq.poll();
+            
+            if (now.cost > dis[now.v]) continue;
 
             for (Node next : list.get(now.v)) {
                 if (dis[next.v] > now.cost + next.cost) {
