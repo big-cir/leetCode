@@ -32,7 +32,7 @@ class Solution {
             Node now = pq.poll();
             ch[now.vertex] = 1;
             
-            if (dis[now.vertex] > now.cost) continue;
+            // if (dis[now.vertex] > now.cost) continue;
 
             for (Node next : graph.get(now.vertex)) {
                 if (ch[next.vertex] == 0) {
