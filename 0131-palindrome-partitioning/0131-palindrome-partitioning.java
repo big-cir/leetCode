@@ -1,23 +1,24 @@
 class Solution {
+    static List<List<String>> answer;
     public List<List<String>> partition(String s) {
-        List<List<String>> answer = new ArrayList<>();
-        List<String> list = new ArrayList<>();
-        backtrack(0, s, list, answer);
+        answer = new ArrayList<>();
+        List<String> tmp = new ArrayList<>();
+        backtrack(0, s, tmp);
         return answer;
     }
     
-    private void backtrack(int start, String s, List<String> list, List<List<String>> answer) {
+    private void backtrack(int start, String s, List<String> tmp) {
         if (start == s.length()) {
-            answer.add(new ArrayList<>(list));
+            answer.add(new ArrayList<>(tmp));
             return;
         }
-
+        
         for (int i = start; i < s.length(); i++) {
-            String sub = s.substring(start, i + 1);
-            if (isPalindrome(sub)) {
-                list.add(sub);
-                backtrack(i + 1, s, list, answer);
-                list.remove(list.size() - 1);
+            String str = s.substring(start, i + 1);
+            if (isPalindrome(str)) {
+                tmp.add(str);
+                backtrack(i + 1, s, tmp);
+                tmp.remove(tmp.size() - 1);
             }
         }
     }
