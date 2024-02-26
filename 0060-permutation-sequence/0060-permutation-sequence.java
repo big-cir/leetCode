@@ -1,38 +1,17 @@
 class Solution {
-    static String answer;
-    static int cnt;
+    static List<String> list;
     public String getPermutation(int n, int k) {
-        // List<String> list = new ArrayList<>();
-        // for (int i = 1; i <= n; i++) {
-        //     String str = String.valueOf(i);
-        //     makePermutation(n, k, list, str);
-        // }
-        // return list.get(k - 1);
+        list = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
         int[] ch = new int[n + 1];
-        cnt = 0;
-        answer = "";
-        backtrack(n, k, ch, sb);
-        return answer;
+        backtrack(sb, n, k, ch);
+        return list.get(k - 1);
     }
-
-//     public void makePermutation(int n, int k, List<String> list, String str) {
-//         if (str.length() == n) {
-//             list.add(str);
-//             return;
-//         }
-
-//         for (int i = 1; i <= n; i++) {
-//             if (str.contains(String.valueOf(i))) continue;
-//             makePermutation(n, k, list, str + i);
-//             if (list.size() - 1 == k) return;
-//         }
-//     }
     
-    public void backtrack(int n, int k, int[] ch, StringBuilder sb) {
+    private void backtrack(StringBuilder sb, int n, int k, int[] ch) {
+        if (list.size() == k) return;
         if (sb.length() == n) {
-            cnt++;
-            if (cnt == k) answer = sb.toString();
+            list.add(sb.toString());
             return;
         }
 
@@ -40,7 +19,7 @@ class Solution {
             if (ch[i] == 0) {
                 ch[i] = 1;
                 sb.append(i);
-                backtrack(n, k, ch, sb);
+                backtrack(sb, n, k, ch);
                 sb.deleteCharAt(sb.length() - 1);
                 ch[i] = 0;
             }
