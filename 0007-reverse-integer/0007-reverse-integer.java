@@ -1,17 +1,20 @@
 class Solution {
     public int reverse(int x) {
-        long res = 0;
-
+        long answer = 0;
         while (x != 0) {
-            res *= 10;
-            res += x % 10;
+            answer *= 10;
+            answer += (x % 10);
             x /= 10;
         }
-
-        if (-Integer.MAX_VALUE <= res && res <= Integer.MAX_VALUE) {
-            return (int) res;
+        
+        if (-Integer.MAX_VALUE <= answer && answer <= Integer.MAX_VALUE) {
+            return (int) answer;
         } else {
             return 0;
         }
+    }
+    
+    public boolean rangeCheck(int x) {
+        return x <= Integer.MAX_VALUE && x >= Integer.MIN_VALUE;
     }
 }
