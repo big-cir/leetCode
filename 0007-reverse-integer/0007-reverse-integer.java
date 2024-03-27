@@ -7,14 +7,7 @@ class Solution {
             x /= 10;
         }
         
-        if (-Integer.MAX_VALUE <= answer && answer <= Integer.MAX_VALUE) {
-            return (int) answer;
-        } else {
-            return 0;
-        }
-    }
-    
-    public boolean rangeCheck(int x) {
-        return x <= Integer.MAX_VALUE && x >= Integer.MIN_VALUE;
+        if (answer >= Integer.MIN_VALUE && answer <= Integer.MAX_VALUE) return (int) answer;
+        else return 0;
     }
 }
