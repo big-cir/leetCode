@@ -1,37 +1,44 @@
 class Solution {
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
+    static boolean answer;
     
     public boolean exist(char[][] board, String word) {
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
+        answer = false;
+        int n = board.length;
+        int m = board[0].length;
+        
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 if (board[i][j] == word.charAt(0)) {
-                    char buffer = board[i][j];
-                    board[i][j] = '.';
-                    if (backtrack(board, i, j, word, 0)) return true;
-                    board[i][j] = buffer;
+                    int[][] ch = new int[n][m];
+                    ch[i][j] = 1;
+                    dfs(1, board, ch, i, j, word);
                 }
+                
+                if (answer) return answer;
             }
         }
-        return false;
+        return answer;
     }
     
-    private boolean backtrack(char[][] board, int x, int y, String word, int count) {
-        if (count + 1 == word.length()) return true;
+    public void dfs(int level, char[][] board, int[][] ch, int x, int y, String s) {
+        if (level == s.length()) {
+            answer = true;
+            return;
+        }
+        
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
             
-            if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length) {
-                if (board[nx][ny] == word.charAt(count + 1)) {
-                    char buffer = board[nx][ny];
-                    board[nx][ny] = '.';
-                    if (backtrack(board, nx, ny, word, count + 1)) return true;
-                    board[nx][ny] = buffer;
+            if (nx >= 0 && nx < board.length && ny >= 0 && ny < board[0].length && ch[nx][ny] == 0) {
+                if (board[nx][ny] == s.charAt(level)) {
+                    ch[nx][ny] = 1;
+                    dfs(level + 1, board, ch, nx, ny, s);
+                    ch[nx][ny] = 0;
                 }
             }
         }
-        
-        return false;
     }
 }
