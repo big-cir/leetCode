@@ -1,16 +1,22 @@
 class Solution {
+    static List<List<Integer>> answer;
+    static int[] ch;
+    
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> answer = new ArrayList<>();
-        backtrack(0, nums, new ArrayList<Integer>(), answer);
+        answer = new ArrayList<>();
+        ch = new int[nums.length];
+        subset(0, new ArrayList<>(), nums);
         return answer;
     }
     
-    private void backtrack(int start, int[] nums, List<Integer> path, List<List<Integer>> answer) {
-        answer.add(new ArrayList<>(path));
+    private void subset(int start, List<Integer> list, int[] nums) {
+        if (list.size() > nums.length) return;
+        answer.add(new ArrayList<>(list));
+        
         for (int i = start; i < nums.length; i++) {
-            path.add(nums[i]);
-            backtrack(i + 1, nums, path, answer);
-            path.remove(path.size() - 1);
+            list.add(nums[i]);
+            subset(i + 1, list, nums);
+            list.remove(Integer.valueOf(nums[i]));
         }
     }
 }
