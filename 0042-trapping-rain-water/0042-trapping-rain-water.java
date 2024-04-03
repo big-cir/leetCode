@@ -1,30 +1,33 @@
 class Solution {
-    public class Element {
+    static class Info {
         private int idx;
-        private int height;
+        private int h;
 
-        public Element(int idx, int height) {
+        public Info(int idx, int h) {
             this.idx = idx;
-            this.height = height;
+            this.h = h;
         }
     }
     
     public int trap(int[] height) {
         int answer = 0;
-        Deque<Element> stack = new ArrayDeque<>();
-
+        Deque<Info> stack = new ArrayDeque<>();
         for (int i = 0; i < height.length; i++) {
-            if (!stack.isEmpty()) {
-                while (height[i] > stack.peek().height) {
-                     Element element = stack.pop();
-                     if (stack.isEmpty()) break;
+            while (!stack.isEmpty()) {
+                int top_Height = stack.peek().h;
+                int now_Height = height[i];
+                if (top_Height < now_Height) {
+                    Info top = stack.pop();
+                    if (stack.isEmpty()) break;
+                    int dis = i - stack.peek().idx - 1;
 
-                     int waterWidth = i - stack.peek().idx - 1;
-                    int waterHeight = Math.min(height[i], stack.peek().height) - height[element.idx];
-                     answer += waterWidth * waterHeight;
+                    int h = Math.min(height[i], stack.peek().h) - height[top.idx];
+                    answer += dis * h;
+                } else {
+                    break;
                 }
             }
-            stack.push(new Element(i, height[i]));
+            stack.push(new Info(i, height[i]));
         }
         return answer;
     }
