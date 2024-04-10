@@ -1,6 +1,8 @@
 class Solution {
+    
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
+    
     public int numIslands(char[][] grid) {
         int answer = 0;
         int[][] ch = new int[grid.length][grid[0].length];
@@ -36,7 +38,6 @@ class Solution {
                     }
                 }
             }
-            
         }
     }
 }
