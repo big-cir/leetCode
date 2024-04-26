@@ -1,27 +1,17 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        if (amount == 0) return 0;
-        
-        // {amount, count}
-        Queue<int[]> queue = new LinkedList<>();
-        queue.offer(new int[] {amount, 0});
-        int[] visit = new int[amount + 1];
-        visit[amount] = 1;
-        
-        while (!queue.isEmpty()) {
-            int[] poll = queue.poll();
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, 10001);
+        dp[0] = 0;
+    
+        for (int i = 1; i <= amount; i++) {
             for (int coin : coins) {
-                if (poll[0] >= coin) {
-                    int tmp = poll[0] - coin;
-                    if (tmp == 0) return poll[1] + 1;
-                    
-                    if (visit[tmp] == 0) {
-                        visit[tmp] = 1;
-                        queue.offer(new int[] {tmp, poll[1] + 1});
-                    }
+                if (i >= coin) {
+                    dp[i] = Math.min(dp[i - coin] + 1, dp[i]);
                 }
             }
         }
-        return -1;
+        
+        return dp[amount] == 10001 ? -1 : dp[amount];
     }
 }
