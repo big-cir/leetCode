@@ -5,17 +5,17 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         answer = new ArrayList<>();
         ch = new int[nums.length];
-        subset(0, new ArrayList<>(), nums);
+        sub(0, new ArrayList<>(), nums);
         return answer;
     }
     
-    private void subset(int start, List<Integer> list, int[] nums) {
+    private void sub(int start, List<Integer> list, int[] nums) {
         if (list.size() > nums.length) return;
         answer.add(new ArrayList<>(list));
         
         for (int i = start; i < nums.length; i++) {
             list.add(nums[i]);
-            subset(i + 1, list, nums);
+            sub(i + 1, list, nums);
             list.remove(Integer.valueOf(nums[i]));
         }
     }
