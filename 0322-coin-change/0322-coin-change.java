@@ -1,17 +1,46 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        int[] dp = new int[amount + 1];
-        Arrays.fill(dp, 10001);
-        dp[0] = 0;
+        int answer = bfs(coins, amount);
+        
+        if (amount == 0) return 0;
+        return answer == 10001 ? -1 : answer;
+    }
     
-        for (int i = 1; i <= amount; i++) {
+    private static int bfs(int[] coins, int amount) {
+        Queue<Integer> queue = new LinkedList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < coins.length; i++) {
+            int coin = coins[i];
+            queue.offer(coin);
+            map.put(coin, 1);
+        }
+        
+        int max = 10001;
+        int answer = 10001;
+        
+        while (!queue.isEmpty()) {
+            int now = queue.poll();
+            
+            if (now > max) continue;
+            
+            if (now == amount) {
+                answer = Math.min(answer, map.get(now));
+            }
+            
             for (int coin : coins) {
-                if (i >= coin) {
-                    dp[i] = Math.min(dp[i - coin] + 1, dp[i]);
-                }
+                if (now > amount - coin) continue;
+                
+                int nv = now + coin;
+                int nc = map.get(now) + 1;
+                
+                if (nv > max) continue;
+                if (map.containsKey(nv) && map.get(nv) <= nc) continue;
+                
+                queue.offer(nv);
+                map.put(nv, nc);
             }
         }
         
-        return dp[amount] == 10001 ? -1 : dp[amount];
+        return answer;
     }
 }
