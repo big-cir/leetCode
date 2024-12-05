@@ -1,17 +1,17 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> store = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int gap = target - nums[i];
-
-            if (store.containsKey(gap)) {
-                return new int[] {store.get(gap), i};
+            int value = nums[i];
+            int newTarget = target - value;
+            
+            if (map.containsKey(newTarget)) {
+                return new int[] {map.get(newTarget), i};
+            } else {
+                map.put(value, i);
             }
-
-            // 현재 값과 index를 저장
-            store.put(nums[i], i);
         }
-
+        
         return new int[] {-1, -1};
     }
 }
