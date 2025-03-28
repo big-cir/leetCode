@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0739-daily-temperatures](https://github.com/big-cir/leetCode/tree/master/0739-daily-temperatures) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Stack
 |  |
 | ------- |
@@ -27,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
