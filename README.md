@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0739-daily-temperatures](https://github.com/big-cir/leetCode/tree/master/0739-daily-temperatures) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Stack
 |  |
 | ------- |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Union Find
 |  |
 | ------- |
@@ -36,4 +38,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Counting
+|  |
+| ------- |
+| [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 <!---LeetCode Topics End-->
