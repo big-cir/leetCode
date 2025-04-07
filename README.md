@@ -42,4 +42,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
+## String
+|  |
+| ------- |
+| [3617-find-the-original-typed-string-i](https://github.com/big-cir/leetCode/tree/master/3617-find-the-original-typed-string-i) |
 <!---LeetCode Topics End-->
