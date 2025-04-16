@@ -45,5 +45,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [3617-find-the-original-typed-string-i](https://github.com/big-cir/leetCode/tree/master/3617-find-the-original-typed-string-i) |
+## Binary Search
+|  |
+| ------- |
+| [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
+## Sliding Window
+|  |
+| ------- |
+| [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
+## Prefix Sum
+|  |
+| ------- |
+| [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
 <!---LeetCode Topics End-->
