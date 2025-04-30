@@ -65,4 +65,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
+## Depth-First Search
+|  |
+| ------- |
+| [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
+## Graph
+|  |
+| ------- |
+| [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 <!---LeetCode Topics End-->
