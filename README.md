@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/big-cir/leetCode/tree/master/0739-daily-temperatures) |
 | [0879-maximize-distance-to-closest-person](https://github.com/big-cir/leetCode/tree/master/0879-maximize-distance-to-closest-person) |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Stack
@@ -68,13 +69,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Graph
 |  |
 | ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
+## Math
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
+## Geometry
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
