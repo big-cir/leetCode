@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [0739-daily-temperatures](https://github.com/big-cir/leetCode/tree/master/0739-daily-temperatures) |
 | [0879-maximize-distance-to-closest-person](https://github.com/big-cir/leetCode/tree/master/0879-maximize-distance-to-closest-person) |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -71,11 +73,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Graph
@@ -91,4 +95,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
