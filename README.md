@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -74,17 +75,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Math
