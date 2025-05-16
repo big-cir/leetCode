@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [3617-find-the-original-typed-string-i](https://github.com/big-cir/leetCode/tree/master/3617-find-the-original-typed-string-i) |
 ## Binary Search
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
 ## Depth-First Search
 |  |
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 ## Geometry
 |  |
@@ -103,4 +106,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
+## Recursion
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
