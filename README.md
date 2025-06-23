@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0879-maximize-distance-to-closest-person](https://github.com/big-cir/leetCode/tree/master/0879-maximize-distance-to-closest-person) |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/big-cir/leetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/big-cir/leetCode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Breadth-First Search
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [3561-remove-methods-from-project](https://github.com/big-cir/leetCode/tree/master/3561-remove-methods-from-project) |
 ## Graph
@@ -108,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
+| [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 ## Recursion
 |  |
 | ------- |
