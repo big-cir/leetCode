@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/big-cir/leetCode/tree/master/0739-daily-temperatures) |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/big-cir/leetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [3617-find-the-original-typed-string-i](https://github.com/big-cir/leetCode/tree/master/3617-find-the-original-typed-string-i) |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/big-cir/leetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 ## Binary Search
 |  |
 | ------- |
@@ -148,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/big-cir/leetCode/tree/master/0016-3sum-closest) |
+## Simulation
+|  |
+| ------- |
+| [3860-resulting-string-after-adjacent-removals](https://github.com/big-cir/leetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
 <!---LeetCode Topics End-->
