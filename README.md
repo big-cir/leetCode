@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0879-maximize-distance-to-closest-person](https://github.com/big-cir/leetCode/tree/master/0879-maximize-distance-to-closest-person) |
 | [1025-minimum-cost-for-tickets](https://github.com/big-cir/leetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/big-cir/leetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/big-cir/leetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
+| [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2206-detonate-the-maximum-bombs](https://github.com/big-cir/leetCode/tree/master/2206-detonate-the-maximum-bombs) |
 ## Geometry
 |  |
@@ -154,4 +157,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3860-resulting-string-after-adjacent-removals](https://github.com/big-cir/leetCode/tree/master/3860-resulting-string-after-adjacent-removals) |
+## Design
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
