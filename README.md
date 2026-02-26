@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/big-cir/leetCode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/big-cir/leetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0079-word-search](https://github.com/big-cir/leetCode/tree/master/0079-word-search) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/big-cir/leetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0128-longest-consecutive-sequence](https://github.com/big-cir/leetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/big-cir/leetCode/tree/master/0079-word-search) |
 | [0241-different-ways-to-add-parentheses](https://github.com/big-cir/leetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1321-get-equal-substrings-within-budget](https://github.com/big-cir/leetCode/tree/master/1321-get-equal-substrings-within-budget) |
 | [3617-find-the-original-typed-string-i](https://github.com/big-cir/leetCode/tree/master/3617-find-the-original-typed-string-i) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/big-cir/leetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/big-cir/leetCode/tree/master/0547-number-of-provinces) |
 | [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
@@ -119,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/big-cir/leetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/big-cir/leetCode/tree/master/0200-number-of-islands) |
 | [1507-check-if-there-is-a-valid-path-in-a-grid](https://github.com/big-cir/leetCode/tree/master/1507-check-if-there-is-a-valid-path-in-a-grid) |
 ## Recursion
@@ -167,4 +171,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/big-cir/leetCode/tree/master/1477-product-of-the-last-k-numbers) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/big-cir/leetCode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
